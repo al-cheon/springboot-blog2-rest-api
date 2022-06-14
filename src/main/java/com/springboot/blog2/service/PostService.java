@@ -3,8 +3,6 @@ package com.springboot.blog2.service;
 import com.springboot.blog2.payload.PostDto;
 import com.springboot.blog2.payload.PostResponse;
 
-import java.util.List;
-
 public interface PostService {
     PostDto createPost(PostDto postDto);
 
